@@ -1,0 +1,50 @@
+.header {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(200px);
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__block {
+        display: flex;
+        align-items: center;
+    }
+
+    &__title {
+        color: #3a68b8;
+        font-size: 22px;
+        margin-left: 15px;
+    }
+
+    &__list {
+        display: flex;
+    }
+
+    &__link {
+        font-size: 16px;
+        color: #ffffff;
+        padding-right: 40px;
+        transition: all 0.5s;
+
+        &:hover {
+            color: $primary;
+        }
+    }
+
+    &__button {
+        width: 112px;
+        height: 52px;
+        left: 1421px;
+        top: 24px;
+        font-size: 16px;
+        color: white;
+
+        background: #3a68b8;
+        border-radius: 5px;
+    }
+}
