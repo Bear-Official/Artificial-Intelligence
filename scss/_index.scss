@@ -46,6 +46,12 @@
         color: white;
         width: 171px;
         height: 57px;
+
+        transition: all 0.5s;
+
+        &:hover {
+            background: #3a68b8b6;
+        }
     }
 
     &__video-button {
@@ -55,6 +61,12 @@
         color: white;
         height: 57px;
         margin-left: 20px;
+
+        transition: all 0.5s;
+
+        &:hover {
+            background: #3a68b8b6;
+        }
     }
 
     &__block {
@@ -68,9 +80,8 @@
 }
 
 .about {
-    margin-top: 130px;
-    margin-bottom: 170px;
-
+    background: rgba(44, 54, 71, 0.11) !important;
+    padding-top: 130px;
     &__inner {
         display: flex;
         justify-content: space-between;
@@ -98,11 +109,17 @@
 
     &__button {
         cursor: pointer;
+        border: none;
         width: 150px;
         height: 52px;
         background: #3a68b8;
         border-radius: 5px;
         color: #ffffff;
+        transition: all 0.5s;
+
+        &:hover {
+            background: #3a68b8b6;
+        }
     }
 
     &__carousel {
@@ -155,6 +172,8 @@
         background: rgba(44, 54, 71, 0.5) !important;
         border-radius: 10px;
         font-size: 0;
+        border: none;
+        margin-left: 10px;
     }
 
     .slick-active button {
@@ -175,7 +194,9 @@
 }
 
 .reviews {
-    padding-bottom: 213px; 
+    padding-top: 170px;
+    background: rgba(44, 54, 71, 0.11) !important;
+    padding-bottom: 213px;
 
     &__inner {
         display: flex;
