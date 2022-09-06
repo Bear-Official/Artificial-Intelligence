@@ -145,7 +145,7 @@
 
 .slick-dots {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     margin-top: 50px;
 
     li button {
@@ -172,4 +172,40 @@
 .slick-dots li.slick-active ~ li:nth-last-child(4),
 .slick-dots li.slick-active ~ li:nth-last-child(5) {
     display: none;
+}
+
+.reviews {
+    padding-bottom: 213px; 
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 40px;
+        color: #ffffff;
+        margin-bottom: 40px;
+    }
+
+    &__description {
+        font-size: 16px;
+        margin-bottom: 20px;
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    &__desc {
+        color: rgba(255, 255, 255, 0.7);
+        margin-bottom: 20px;
+    }
+
+    &__sub-desc {
+        color: rgba(255, 255, 255, 0.7);
+        margin-bottom: 20px;
+    }
+
+    &__paragraph {
+        color: rgba(255, 255, 255, 0.7);
+    }
 }
