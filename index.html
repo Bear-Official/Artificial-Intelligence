@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="libs/fontawesome/all.min.css">
 
 </head>
 
@@ -32,7 +33,19 @@
                         <li class="header__item"><a class="header__link" href="#">Blog</a></li>
                         <li class="header__item"><a class="header__link" href="#">Contact</a></li>
                     </ul>
+
                 </nav>
+                <div id="myNav" class="overlay" style="height: 100%;">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </div>
+                <span onclick="openNav()"><i class="fa-solid fa-bars"></i></span>
                 <button class="header__button" type="submit">Sign In</button>
             </div>
     </header>
@@ -58,7 +71,7 @@
                             <button class="hero__video-button" type="submit">Watch Video</button>
                         </div>
                     </div>
-                    <div class="img__wrap">
+                    <div class="header__img-wrap">
                         <img class="hero__img" src="images/header-img.svg" alt="">
                     </div>
                 </div>
@@ -85,102 +98,103 @@
                         </p>
                         <button class="about__button" type="submit">Learn More</button>
                     </div>
-                    <div class="img__wrap">
+                    <div class="about__image">
                         <img class="about__image" src="images/about-img.jpg" alt="">
                     </div>
                 </div>
             </div>
-            <div class="carousel">
-                <div class="about__carousel">
-                    <div class="about__carousel-item">
-                        <div class="img__wrap">
-                            <img class="about__carousel-img" src="images/welcome.png" alt="">
-                        </div>
-                        <h2 class="about__carousel__title">Naxly as the Winners in Global Agency Awards</h2>
-                        <p class="about__carousel-description">
-                            Lorem ipsum is placeholder text commonly used in print, and publishing industries for
-                            previewing layouts and visual
-                            mockups.
-                        </p>
+        </section>
+        <section class="carousel">
+            <div class="carousel__inner">
+                <div class="carousel__item">
+                    <div class="carousel__img">
+                        <img src="images/welcome.png" alt="">
                     </div>
-                    <div class="about__carousel-item">
-                        <div class="img__wrap">
-                            <img class="about__carousel-img" src="images/welcome-2.png" alt="">
-                        </div>
-                        <h2 class="about__carousel__title">Naxly as the Winners in Global Agency Awards</h2>
-                        <p class="about__carousel-description">
-                            Lorem ipsum is placeholder text commonly used in print, and publishing industries for
-                            previewing layouts and visual
-                            mockups.
-                        </p>
-                    </div>
-                    <div class="about__carousel-item">
-                        <div class="img__wrap">
-                            <img class="about__carousel-img" src="images/welcome-3.png" alt="">
-                        </div>
-                        <h2 class="about__carousel__title">Naxly as the Winners in Global Agency Awards</h2>
-                        <p class="about__carousel-description">
-                            Lorem ipsum is placeholder text commonly used in print, and publishing industries for
-                            previewing layouts and visual
-                            mockups.
-                        </p>
-                    </div>
-                    <div class="about__carousel-item">
-                        <div class="img__wrap">
-                            <img class="about__carousel-img" src="images/welcome-4.png" alt="">
-                        </div>
-                        <h2 class="about__carousel__title">Naxly as the Winners in Global Agency Awards</h2>
-                        <p class="about__carousel-description">
-                            Lorem ipsum is placeholder text commonly used in print, and publishing industries for
-                            previewing layouts and visual
-                            mockups.
-                        </p>
-                    </div>
-                    <div class="about__carousel-item">
-                        <div class="img__wrap">
-                            <img class="about__carousel-img" src="images/welcome-5.png" alt="">
-                        </div>
-                        <h2 class="about__carousel__title">Expert Prespective Agency Awards</h2>
-                        <p class="about__carousel-description">
-                            Lorem ipsum is placeholder text commonly used in print, and publishing industries for
-                            previewing layouts and visual
-                            mockups.
-                        </p>
-                    </div>
-                    <div class="about__carousel-item">
-                        <div class="img__wrap">
-                            <img class="about__carousel-img" src="images/welcome.png" alt="">
-                        </div>
-                        <h2 class="about__carousel__title">Business Prespective Global Agency Awards</h2>
-                        <p class="about__carousel-description">
-                            Lorem ipsum is placeholder text commonly used in print, and publishing industries for
-                            previewing layouts and visual
-                            mockups.
-                        </p>
-                    </div>
-                    <div class="about__carousel-item">
-                        <div class="img__wrap">
-                            <img class="about__carousel-img" src="images/welcome-2.png" alt="">
-                        </div>
-                        <h2 class="about__carousel__title">Value for Results in Global Agency Awards</h2>
-                        <p class="about__carousel-description">
-                            Lorem ipsum is placeholder text commonly used in print, and publishing industries for
-                            previewing layouts and visual
-                            mockups.
-                        </p>
-                    </div>
-                    <div class="about__carousel-item">
-                        <div class="img__wrap">
-                            <img class="about__carousel-img" src="images/welcome-3.png" alt="">
-                        </div>
-                        <h2 class="about__carousel__title">Global Experience in Agency Awards</h2>
-                        <p class="about__carousel-description">
-                            Lorem ipsum is placeholder text commonly used in print, and publishing industries for
-                            previewing layouts and visual
-                            mockups.
-                        </p>
-                    </div>
+                    <h2 class="carousel__title">Naxly as the Winners in Global Agency Awards</h2>
+                    <p class="carousel__description">
+                        Lorem ipsum is placeholder text commonly used in print, and publishing industries for
+                        previewing layouts and visual
+                        mockups.
+                    </p>
                 </div>
+                <div class="carousel__item">
+                    <div class="carousel__img">
+                        <img src="images/welcome-2.png" alt="">
+                    </div>
+                    <h2 class="carousel__title">Naxly as the Winners in Global Agency Awards</h2>
+                    <p class="carousel__description">
+                        Lorem ipsum is placeholder text commonly used in print, and publishing industries for
+                        previewing layouts and visual
+                        mockups.
+                    </p>
+                </div>
+                <div class="carousel__item">
+                    <div class="carousel__img">
+                        <img src="images/welcome-3.png" alt="">
+                    </div>
+                    <h2 class="carousel__title">Naxly as the Winners in Global Agency Awards</h2>
+                    <p class="carousel__description">
+                        Lorem ipsum is placeholder text commonly used in print, and publishing industries for
+                        previewing layouts and visual
+                        mockups.
+                    </p>
+                </div>
+                <div class="carousel__item">
+                    <div class="carousel__img">
+                        <img src="images/welcome-4.png" alt="">
+                    </div>
+                    <h2 class="carousel__title">Naxly as the Winners in Global Agency Awards</h2>
+                    <p class="carousel__description">
+                        Lorem ipsum is placeholder text commonly used in print, and publishing industries for
+                        previewing layouts and visual
+                        mockups.
+                    </p>
+                </div>
+                <div class="carousel__item">
+                    <div class="carousel__img">
+                        <img src="images/welcome-5.png" alt="">
+                    </div>
+                    <h2 class="carousel__title">Expert Prespective Agency Awards</h2>
+                    <p class="carousel__description">
+                        Lorem ipsum is placeholder text commonly used in print, and publishing industries for
+                        previewing layouts and visual
+                        mockups.
+                    </p>
+                </div>
+                <div class="carousel__item">
+                    <div class="carousel__img">
+                        <img src="images/welcome.png" alt="">
+                    </div>
+                    <h2 class="carousel__title">Business Prespective Global Agency Awards</h2>
+                    <p class="carousel__description">
+                        Lorem ipsum is placeholder text commonly used in print, and publishing industries for
+                        previewing layouts and visual
+                        mockups.
+                    </p>
+                </div>
+                <div class="carousel__item">
+                    <div class="carousel__img">
+                        <img src="images/welcome-2.png" alt="">
+                    </div>
+                    <h2 class="carousel__title">Value for Results in Global Agency Awards</h2>
+                    <p class="carousel__description">
+                        Lorem ipsum is placeholder text commonly used in print, and publishing industries for
+                        previewing layouts and visual
+                        mockups.
+                    </p>
+                </div>
+                <div class="carousel__item">
+                    <div class="carousel__img">
+                        <img src="images/welcome-3.png" alt="">
+                    </div>
+                    <h2 class="carousel__title">Global Experience in Agency Awards</h2>
+                    <p class="carousel__description">
+                        Lorem ipsum is placeholder text commonly used in print, and publishing industries for
+                        previewing layouts and visual
+                        mockups.
+                    </p>
+                </div>
+            </div>
             </div>
         </section>
         <section class="reviews">
@@ -210,7 +224,7 @@
                             and visual mockups.
                         </p>
                     </div>
-                    <div class="img__wrap">
+                    <div class="reviews__image">
                         <img class="reviews__image" src="images/reviews-image.png" alt="">
                     </div>
                 </div>
