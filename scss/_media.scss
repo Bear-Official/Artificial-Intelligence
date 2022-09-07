@@ -192,7 +192,15 @@ i {
             width: 302px !important;
         }
     }
-} 
+
+    .hero,
+    .reviews,
+    .about, 
+    .footer {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+}
 
 @media (max-width: 628px) {
     .footer .footer {
