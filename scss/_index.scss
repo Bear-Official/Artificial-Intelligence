@@ -5,6 +5,7 @@
     &__inner {
         display: flex;
         justify-content: space-between;
+        position: relative;
     }
 
     &__text {
@@ -32,8 +33,8 @@
 
     &__img {
         position: absolute;
-        right: 180px;
-        top: 101px;
+        right: -172px;
+        top: -101px;
     }
 
     &__wrap {
@@ -82,7 +83,12 @@
 }
 
 .about {
-    background: rgba(44, 54, 71, 0.11) !important;
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0) -41.9%,
+        rgba(255, 255, 255, 0.1) 260.24%
+    );
+
     padding-top: 130px;
     &__inner {
         display: flex;
@@ -164,7 +170,12 @@
 
 .reviews {
     padding-top: 170px;
-    background: rgba(44, 54, 71, 0.11) !important;
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0) -41.9%,
+        rgba(255, 255, 255, 0.1) 260.24%
+    );
+
     padding-bottom: 213px;
 
     &__inner {
@@ -213,7 +224,7 @@
 
 .overlay-content {
     position: relative;
-    top: 50%;
+    top: 10%;
     width: 100%;
     height: 1500vh;
     text-align: center;
@@ -241,10 +252,4 @@
     right: 17px;
     font-size: 60px;
     z-index: 99;
-}
-
-i { 
- visibility: hidden;
-    font-size: 30px;
-    color: #818181;
 }

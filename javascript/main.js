@@ -4,6 +4,7 @@ $(document).ready(function () {
         dots: true,
         slidesToShow: 5,
         slidesToScroll: 1,
+        infinite: true,
         responsive: [
             {
                 breakpoint: 1535,
@@ -30,7 +31,7 @@ $(document).ready(function () {
             },
         ],
     });
-});
+}); 
 
 function openNav() {
     document.getElementById("myNav").style.display = "block";

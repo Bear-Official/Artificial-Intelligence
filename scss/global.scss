@@ -1,8 +1,8 @@
 // Settings
 @import "vars";
 @import "fonts";
-@import "reset"; 
-@import "media"; 
+@import "reset";
+@import "media";
 @import "slick";
 
 // Components
@@ -25,9 +25,7 @@ body {
     margin: 0 auto;
 }
 
-.about {
-    &__carousel {
-        max-width: 1930px;
-        margin: 0 auto;
-    }
-}
+.carousel__inner {
+    max-width: 1930px;
+    margin: 0 auto;
+} 

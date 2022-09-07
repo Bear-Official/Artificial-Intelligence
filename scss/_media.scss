@@ -1,3 +1,9 @@
+i {
+    visibility: hidden;
+    font-size: 30px;
+    color: #818181;
+}
+
 @media (max-width: 1895px) {
     .slick-dots {
         position: absolute;
@@ -10,7 +16,7 @@
 @media (max-width: 1762px) {
     .hero .hero {
         &__img {
-            right: 0;
+            right: -107px;
         }
     }
 }
@@ -106,8 +112,8 @@
     .header .header {
         &__nav {
             display: none;
-        } 
-        
+        }
+
         &__button {
             display: none;
         }
@@ -171,7 +177,22 @@
             margin-left: 0;
         }
     }
+
+    .about .about {
+        &__button {
+            width: 100%;
+        }
+    }
 }
+
+// @Tablet
+@media (max-width: 768px) {
+    .carousel .carousel {
+        &__item {
+            width: 302px !important;
+        }
+    }
+} 
 
 @media (max-width: 628px) {
     .footer .footer {
