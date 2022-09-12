@@ -28,8 +28,6 @@ $(document).ready(function () {
                     slidesToScroll: 1,
                     adaptiveHeight: true,
                     variableWidth: true,
-                    centerMode: true,
-                    infinite: false,
                 },
             },
         ],
