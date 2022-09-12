@@ -222,3 +222,15 @@ i {
         }
     }
 }
+
+@media (max-width: 425px) {
+    .slick-track {
+        margin-left: 10px !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .slick-track {
+        margin-left: 20px !important;
+    }
+}
