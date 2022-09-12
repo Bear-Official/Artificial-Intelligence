@@ -11,7 +11,6 @@ $(document).ready(function () {
                 settings: {
                     slidesToShow: 4,
                     slidesToScroll: 1,
-                    infinite: true,
                 },
             },
             {
@@ -21,24 +20,26 @@ $(document).ready(function () {
                     slidesToScroll: 1,
                 },
             },
+
             {
                 breakpoint: 600,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    infinite: true,
+                    adaptiveHeight: true,
+                    variableWidth: true,
+                    centerMode: true,
+                    infinite: false,
                 },
             },
         ],
     });
-}); 
-
+});
 
 function openNav() {
-  document.getElementById("myNav").style.display = "block";
+    document.getElementById("myNav").style.display = "block";
 }
 
-
 function closeNav() {
-  document.getElementById("myNav").style.display = "none";
+    document.getElementById("myNav").style.display = "none";
 }

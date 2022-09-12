@@ -189,7 +189,7 @@ i {
 @media (max-width: 768px) {
     .carousel .carousel {
         &__item {
-            width: 302px !important;
+            width: 280px !important;
         }
     }
 
@@ -199,6 +199,14 @@ i {
     .footer {
         padding-top: 40px !important;
         padding-bottom: 40px !important;
+    }
+}
+
+@media (max-width: 640px) {
+    .hero .hero {
+        &__box {
+            flex-direction: column;
+        }
     }
 }
 
@@ -213,12 +221,8 @@ i {
             margin: 0;
         }
     }
-}
 
-@media (max-width: 640px) {
-    .hero .hero {
-        &__box {
-            flex-direction: column;
-        }
-    }
+    // .slick-track {
+    //     margin-left: 50px !important;
+    // }
 }
