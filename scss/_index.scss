@@ -83,12 +83,6 @@
 }
 
 .about {
-    background: linear-gradient(
-        180deg,
-        rgba(255, 255, 255, 0) -41.9%,
-        rgba(255, 255, 255, 0.1) 260.24%
-    );
-
     padding-top: 130px;
     &__inner {
         display: flex;
@@ -170,11 +164,6 @@
 
 .reviews {
     padding-top: 170px;
-    background: linear-gradient(
-        180deg,
-        rgba(255, 255, 255, 0) -41.9%,
-        rgba(255, 255, 255, 0.1) 260.24%
-    );
 
     padding-bottom: 213px;
 
