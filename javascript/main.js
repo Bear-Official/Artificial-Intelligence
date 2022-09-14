@@ -4,7 +4,7 @@ $(document).ready(function () {
         dots: true,
         slidesToShow: 5,
         slidesToScroll: 1,
-        infinite: true,
+        infinite: false,
         responsive: [
             {
                 breakpoint: 1535,
@@ -28,6 +28,7 @@ $(document).ready(function () {
                     slidesToScroll: 1,
                     adaptiveHeight: true,
                     variableWidth: true,
+                    centerMode: true,
                 },
             },
         ],

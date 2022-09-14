@@ -6,7 +6,6 @@ i {
 
 @media (max-width: 1895px) {
     .slick-dots {
-        position: absolute;
         left: 0;
         right: 0;
         top: 50%;
@@ -207,6 +206,12 @@ i {
         &__box {
             flex-direction: column;
         }
+    } 
+
+    .carousel  .carousel { 
+        &__item { 
+            padding: 10px;
+        }
     }
 }
 
@@ -220,17 +225,5 @@ i {
         &__info {
             margin: 0;
         }
-    }
-}
-
-@media (max-width: 425px) {
-    .slick-track {
-        margin-left: 10px !important;
-    }
-}
-
-@media (max-width: 320px) {
-    .slick-track {
-        margin-left: 20px !important;
     }
 }
