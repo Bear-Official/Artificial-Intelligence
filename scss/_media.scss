@@ -186,11 +186,7 @@ i {
 
 // @Tablet
 @media (max-width: 768px) {
-    .carousel .carousel {
-        &__item {
-            width: 280px !important;
-        }
-    }
+  
 
     .hero,
     .reviews,
@@ -206,10 +202,10 @@ i {
         &__box {
             flex-direction: column;
         }
-    } 
+    }
 
-    .carousel  .carousel { 
-        &__item { 
+    .carousel .carousel {
+        &__item {
             padding: 10px;
         }
     }
