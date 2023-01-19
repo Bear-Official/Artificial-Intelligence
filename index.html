@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="libs/fontawesome/all.min.css">
+    <link rel="stylesheet" href="css/aos.css">
 
 </head>
 
@@ -53,7 +54,7 @@
         <section class="hero">
             <div class="wrapper">
                 <div class="hero__inner">
-                    <div class="hero__info">
+                    <div class="hero__info" data-aos="fade-right" data-aos-duration="1500">
                         <h2 class="hero__text">Next genaretion platform</h2>
                         <p class="hero__description">
                             Artificial intelligence & Syber security
@@ -71,15 +72,16 @@
                         </div>
                     </div>
                     <div class="header__img-wrap">
-                        <img class="hero__img" src="images/header-img.svg" alt="">
+                        <img class="hero__img" data-aos="fade-left" data-aos-duration="1300" src="images/header-img.svg"
+                            alt="">
                     </div>
                 </div>
                 <div class="hero__block">
                     <div class="hero__box">
-                        <img src="images/logo-ipsum.svg" alt="">
-                        <img src="images/logo-ipsum-2.svg" alt="">
-                        <img src="images/logo-ipsum-3.svg" alt="">
-                        <img src="images/logo-ipsum-4.svg" alt="">
+                        <img data-aos="flip-left" data-aos-duration="1700" src="images/logo-ipsum.svg" alt="">
+                        <img data-aos="flip-left" data-aos-duration="1650" src="images/logo-ipsum-2.svg" alt="">
+                        <img data-aos="flip-left" data-aos-duration="1600" src="images/logo-ipsum-3.svg" alt="">
+                        <img data-aos="flip-left" data-aos-duration="1550" src="images/logo-ipsum-4.svg" alt="">
                     </div>
                 </div>
             </div>
@@ -88,7 +90,7 @@
         <section class="about" id="about">
             <div class="wrapper">
                 <div class="about__inner">
-                    <div class="about__info">
+                    <div class="about__info" data-aos="fade-left" data-aos-duration="1400">
                         <h2 class="about__title">Apply AI, Deep Learning and about Sciece to solve</h2>
                         <p class="about__description">
                             Lorem ipsum is placeholder text commonly used in the <br> graphic, print, and publishing
@@ -97,7 +99,7 @@
                         </p>
                         <button class="about__button" type="submit">Learn More</button>
                     </div>
-                    <div class="about__image">
+                    <div class="about__image" data-aos="fade-right" data-aos-duration="1500">
                         <img class="about__image" src="images/about-img.png" alt="">
                     </div>
                 </div>
@@ -176,7 +178,7 @@
         <section class="reviews" id="reviews">
             <div class="wrapper">
                 <div class="reviews__inner">
-                    <div class="reviews__box">
+                    <div class="reviews__box" data-aos="fade-right" data-aos-duration="1600">
                         <h3 class="reviews__title">What our clients say about <br> our awesome solutions</h3>
                         <p class="reviews__description">
                             To take a trivial example, which of us ever undertakes <br> laborious physical exercise,
@@ -200,7 +202,7 @@
                             and visual mockups.
                         </p>
                     </div>
-                    <div class="reviews__image">
+                    <div class="reviews__image"  data-aos="fade-left" data-aos-duration="1200">
                         <img class="reviews__image" src="images/reviews-image.png" alt="">
                     </div>
                 </div>
@@ -338,10 +340,11 @@
         </div>
     </footer>
 
-
+    <script src="javascript/aos.js"></script>
     <script src="javascript/main.min.js"></script>
     <script src="javascript/jquery-3.6.0.min.js"></script>
     <script src="owlcarousel/owl.carousel.min.js"></script>
+
 </body>
 
 </html>

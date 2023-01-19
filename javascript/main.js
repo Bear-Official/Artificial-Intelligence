@@ -2,8 +2,8 @@ $(document).ready(function () {
     $(".owl-carousel").owlCarousel({
         loop: true,
         margin: 10,
-        nav: true, 
-        
+        nav: true,
+
         responsive: {
             1600: {
                 items: 5,
@@ -24,6 +24,7 @@ $(document).ready(function () {
     });
 });
 
+// Burger Menu
 function openNav() {
     document.getElementById("myNav").style.display = "block";
 }
@@ -31,3 +32,5 @@ function openNav() {
 function closeNav() {
     document.getElementById("myNav").style.display = "none";
 }
+
+AOS.init();
